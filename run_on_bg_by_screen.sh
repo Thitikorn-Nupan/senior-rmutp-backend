@@ -1,0 +1,2 @@
+screen -S ecomerce
+java -jar ecomerce-backend-modify-0.0.1-SNAPSHOT.jar --mysql.local.url=jdbc:mysql://localhost:3306/ecomerce_backend_modify --mysql.local.username=ttknp --mysql.local.password=12345 --mysql.driver=com.mysql.cj.jdbc.Driver

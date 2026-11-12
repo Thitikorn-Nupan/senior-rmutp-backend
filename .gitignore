@@ -1,0 +1,3 @@
+﻿target/classes/info/stripe_info.properties
+src/main/resources/info/stripe_info.properties
+target/

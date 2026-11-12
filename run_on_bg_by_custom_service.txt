@@ -1,0 +1,10 @@
+copy your custom service to /etc/systemd/system
+ex, take ecomerce.service file to /etc/systemd/system/ecomerce.service
+
+then reload / start / stop  service by
+sudo systemctl daemon-reload
+sudo systemctl enable ecomerce.service
+sudo systemctl start ecomerce.service
+
+see status
+sudo systemctl status ecomerce.service
